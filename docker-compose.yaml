@@ -4,4 +4,4 @@ services:
     image: registry.github.com/roflpommes/swe_microservice_city:latest
     build: ./microservice
     ports:
-      - "8080:4000"
+      - "8080:3000"
