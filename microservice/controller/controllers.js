@@ -27,6 +27,7 @@ var controllers = {
         city.information(req, res, (err, dist) => {
             if (err)
                 res.send(err);
+            console.log(dist)
             res.json(dist);
         });
     },
