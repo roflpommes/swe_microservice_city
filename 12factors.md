@@ -17,7 +17,9 @@
 7. Port binding
 	Der verwendete Port wird in der 'docker-compose' Datei konfiguriert.
 8. Concurrency **(Nicht eingebaut)**
+	Nicht wirklich möglich für diesen Service
 9. Disposability **(Nicht eingebaut)**
+	Start des Service bzw. eine Abfrage dauert nicht recht lange.
 10. Dev/prod parity
 	Es gibt keinen Unterschied zwischen Development und Production
 11. Logs
